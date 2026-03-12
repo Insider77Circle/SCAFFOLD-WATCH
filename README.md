@@ -2,7 +2,7 @@
 
 > **A non-executing observer agent for Claude Code — watches your primary builder in real-time and fires surgical `/btw` interrupts before mistakes compound.**
 
-**Author:** Insider747 | **Cluster:** Z | **Version:** 1.0.0
+**Author:** Insider747 | **Version:** 1.0.0
 **Role:** Shadow / parallel observer — never leads, never executes
 
 ---
@@ -98,31 +98,37 @@ flowchart TD
 
 ---
 
-## Cluster Z Integration
+## Multi-Agent Setup
 
-SCAFFOLD-WATCH is designed to compose with other Cluster Z agents:
+SCAFFOLD-WATCH is designed to compose with other specialized agents in a multi-agent pipeline:
 
 ```mermaid
 graph TD
-    USER["👤 User"] -->|"activate"| SW
-    SW["👁️ SCAFFOLD-WATCH"] -->|"CLASS-B escalation"| FS["🛡️ FRAUD-SPOT<br/>Adversarial Analysis"]
-    SW -->|"drift signal"| MA["🧠 Meta-Architect<br/>Framework Alignment"]
-    SW -->|"raw interrupt text"| PF["✒️ PromptForge<br/>Message Sharpening"]
+    USER["👤 User"] -->|"starts build session"| PB
+    USER -->|"activates observer"| SW
 
-    FS -->|"confirmed risk"| INT["⚡ /btw Interrupt"]
-    MA -->|"framework check"| INT
-    PF -->|"sharpened message"| INT
+    PB["🔨 Primary Builder<br/>(writes code, runs tools)"] -->|"output stream"| SW
 
-    INT -->|"user fires /btw"| PB["🔨 Primary Builder"]
+    SW["👁️ SCAFFOLD-WATCH<br/>(observer)"] -->|"CLASS-B escalation"| SA["🛡️ Security Auditor<br/>(deep threat analysis)"]
+    SW -->|"CLASS-A conflict"| AR["🏛️ Architect Agent<br/>(pattern + structure review)"]
+    SW -->|"CLASS-D drift"| PM["📋 Scope Guardian<br/>(requirements alignment)"]
+
+    SA -->|"confirmed risk"| INT["⚡ /btw Interrupt"]
+    AR -->|"structural verdict"| INT
+    PM -->|"drift confirmed"| INT
+
+    INT -->|"user fires /btw"| PB
 
     style USER fill:#1e293b,stroke:#64748b,color:#fff
-    style SW fill:#2d1b69,stroke:#a855f7,color:#fff
-    style FS fill:#7f1d1d,stroke:#ef4444,color:#fff
-    style MA fill:#1e3a5f,stroke:#4a9eff,color:#fff
-    style PF fill:#14532d,stroke:#22c55e,color:#fff
-    style INT fill:#713f12,stroke:#f59e0b,color:#fff
     style PB fill:#1e3a5f,stroke:#4a9eff,color:#fff
+    style SW fill:#2d1b69,stroke:#a855f7,color:#fff
+    style SA fill:#7f1d1d,stroke:#ef4444,color:#fff
+    style AR fill:#1e3a5f,stroke:#4a9eff,color:#fff
+    style PM fill:#14532d,stroke:#22c55e,color:#fff
+    style INT fill:#713f12,stroke:#f59e0b,color:#fff
 ```
+
+> **How it works:** SCAFFOLD-WATCH acts as the triage layer. It doesn't deep-dive — it pattern-matches and routes. When a signal crosses a threshold, it hands off to the appropriate specialist agent for confirmation before an interrupt is fired. This keeps the primary builder's momentum intact while ensuring high-confidence interrupts only.
 
 ---
 
@@ -268,4 +274,4 @@ SCAFFOLD-WATCH/
 
 *"Watch. Evaluate. Interrupt only when the cost demands it."*
 
-**Cluster Z** — Insider747
+**Insider747**
