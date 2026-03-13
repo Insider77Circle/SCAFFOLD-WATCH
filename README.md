@@ -1,7 +1,13 @@
+<p align="center">
+  <img src="banner.svg" alt="SCAFFOLD-WATCH" width="100%"/>
+</p>
+
 # SCAFFOLD-WATCH
 
 > **A non-executing observer agent for Claude Code — watches your primary builder in real-time and fires surgical `/btw` interrupts before mistakes compound.**
 
+**Author:** Insider747 | **Version:** 1.0.0
+**Role:** Shadow / parallel observer — never leads, never executes
 **Author:** Insider747 | **Version:** 1.0.0
 **Role:** Shadow / parallel observer — never leads, never executes
 
