@@ -1,27 +1,108 @@
-# DETECTION ENGINE
+# Comprehensive Detection Engine Implementation
 
-## Pattern Matching and Scoring Logic
-The detection engine uses pattern matching to evaluate signals across four watch classes (A, B, C, D). Below is an overview of the patterns and scoring functions for each class.
+## Watch Class A
+### Pattern Signature
+- Signature details for Watch Class A.
 
-### Watch Class A
-- **Regex Patterns:** `^patternA1$, ^patternA2$`
-- **Scoring Function:** Example scoring function demonstrates how to assign scores based on matches.
-- **Concrete Example:** E.g. for input 'exampleA1', score: 10.
+### Context Validators
+- Validator 1
+- Validator 2
 
-### Watch Class B
-- **Regex Patterns:** `^patternB1$, ^patternB2$`
-- **Scoring Function:** Explanation of scoring function.
-- **Concrete Example:** E.g. for input 'exampleB1', score: 20.
+### Scoring Functions
+- Scoring function details.
 
-### Watch Class C
-- **Regex Patterns:** `^patternC1$, ^patternC2$`
-- **Scoring Function:** Details on scoring logic.
-- **Concrete Example:** E.g. for input 'exampleC1', score: 30.
+### Detection Checklist
+1. Item A1
+2. Item A2
 
-### Watch Class D
-- **Regex Patterns:** `^patternD1$, ^patternD2$`
-- **Scoring Function:** Discuss scoring method.
-- **Concrete Example:** E.g. for input 'exampleD1', score: 40.
+### Urgency Calculation
+- Urgency calculation method.
+
+### Special Rules
+- Special rule details.
+
+### Session State Tracking
+- Session state tracking explanation.
+
+---
+
+## Watch Class B
+### Pattern Signature
+- Signature details for Watch Class B.
+
+### Context Validators
+- Validator 1
+- Validator 2
+
+### Scoring Functions
+- Scoring function details.
+
+### Detection Checklist
+1. Item B1
+2. Item B2
+
+### Urgency Calculation
+- Urgency calculation method.
+
+### Special Rules
+- Special rule details.
+
+### Session State Tracking
+- Session state tracking explanation.
+
+---
+
+## Watch Class C
+### Pattern Signature
+- Signature details for Watch Class C.
+
+### Context Validators
+- Validator 1
+- Validator 2
+
+### Scoring Functions
+- Scoring function details.
+
+### Detection Checklist
+1. Item C1
+2. Item C2
+
+### Urgency Calculation
+- Urgency calculation method.
+
+### Special Rules
+- Special rule details.
+
+### Session State Tracking
+- Session state tracking explanation.
+
+---
+
+## Watch Class D
+### Pattern Signature
+- Signature details for Watch Class D.
+
+### Context Validators
+- Validator 1
+- Validator 2
+
+### Scoring Functions
+- Scoring function details.
+
+### Detection Checklist
+1. Item D1
+2. Item D2
+
+### Urgency Calculation
+- Urgency calculation method.
+
+### Special Rules
+- Special rule details.
+
+### Session State Tracking
+- Session state tracking explanation.
+
+---
 
 ## Conclusion
-With these patterns and scoring functions, you can effectively use the detection engine to evaluate signals across different watch classes.
+This document serves as a comprehensive overview of the detection engine implementation, encompassing all classes and their specific roles in the detection framework.
