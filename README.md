@@ -6,9 +6,10 @@
 
 > **A non-executing observer agent for Claude Code — watches your primary builder in real-time and fires surgical `/btw` interrupts before mistakes compound.**
 
+![SCAFFOLD-WATCH demo — CLASS-B interrupt firing](./scaffold-watch-demo.gif)
+
 **Author:** Insider747 | **Version:** 1.0.0
 **Role:** Shadow / parallel observer — never leads, never executes
-**Author:** Insider747 | **Version:** 1.0.0
 **Role:** Shadow / parallel observer — never leads, never executes
 
 ---
