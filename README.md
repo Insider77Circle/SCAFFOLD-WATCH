@@ -4,7 +4,18 @@
 
 # SCAFFOLD-WATCH
 
-> **A non-executing observer agent for Claude Code — watches your primary builder in real-time and fires surgical `/btw` interrupts before mistakes compound.**
+> A non-executing observer agent for Claude Code — watches your primary
+> builder in real-time and fires surgical `/btw` interrupts before mistakes
+> compound.
+
+It doesn't write code. It doesn't refactor. It doesn't praise. It catches
+what the primary won't.
+
+```bash
+cp SKILL.md ~/.claude/skills/scaffold-watch/SKILL.md
+# open a second Claude Code session next to your builder:
+SCAFFOLD-WATCH: observe and monitor.
+```
 
 ![SCAFFOLD-WATCH demo — CLASS-B interrupt firing](./scaffold-watch-demo.gif)
 
